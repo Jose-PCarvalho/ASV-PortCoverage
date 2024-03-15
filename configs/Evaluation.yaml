@@ -1,0 +1,123 @@
+env1:
+  name: "Map1"
+  number_agents: 1
+  base_steps: 1000000
+  sensor: 'laser'
+  sensor_range: 3
+  size: 30
+  min_size: 0
+  random_size: false
+  obstacles_random: false
+  number_obstacles: 703
+  starting_position: [13,1]
+  starting_position_corner : false
+  starting_position_random : true
+  map_config : 'maps/map1.yaml'
+  random_coverage : false
+  dataset_path: 'empty'
+  load_state: false
+  load_random: false
+
+env2:
+  name: "Map2"
+  number_agents: 1
+  base_steps: 1000000
+  sensor: "laser"
+  sensor_range: 3
+  size: 30
+  min_size: 0
+  random_size: false
+  obstacles_random: false
+  number_obstacles: 623
+  starting_position: [13,1]
+  starting_position_corner : false
+  starting_position_random : true
+  map_config : 'maps/map2.yaml'
+  random_coverage : false
+  dataset_path: 'empty'
+  load_state: false
+  load_random: false
+
+
+env3:
+  name: "Map3"
+  number_agents: 1
+  base_steps: 1000000
+  sensor: "full information"
+  sensor_range: 3
+  size: 17
+  min_size: 0
+  random_size: false
+  obstacles_random: false
+  number_obstacles: 102
+  starting_position: [15,1]
+  starting_position_corner : false
+  starting_position_random : false
+  map_config : 'maps/Map3.yaml'
+  random_coverage : false
+  dataset_path: 'empty'
+  load_state: false
+  load_random: false
+
+env4:
+  name: "Map4"
+  number_agents: 1
+  base_steps: 1000000
+  sensor: "full information"
+  sensor_range: 3
+  size: 17
+  min_size: 0
+  random_size: false
+  obstacles_random: false
+  number_obstacles: 106
+  starting_position: [15,1]
+  starting_position_corner : false
+  starting_position_random : false
+  map_config : 'maps/Map4.yaml'
+  random_coverage : false
+  dataset_path: 'empty'
+  load_state: false
+  load_random: false
+
+
+env5:
+  name: "Map5"
+  number_agents: 1
+  base_steps: 1000000
+  sensor: "full information"
+  sensor_range: 3
+  size: 19
+  min_size: 0
+  random_size: false
+  obstacles_random: false
+  number_obstacles: 139
+  starting_position: [17,1]
+  starting_position_corner : false
+  starting_position_random : false
+  map_config : 'maps/Map5.yaml'
+  random_coverage : false
+  dataset_path: 'empty'
+  load_state: false
+  load_random: false
+
+env6:
+  name: "Map6"
+  number_agents: 1
+  base_steps: 1000000
+  sensor: "full information"
+  sensor_range: 3
+  size: 19
+  min_size: 0
+  random_size: false
+  obstacles_random: false
+  number_obstacles: 123
+  starting_position: [17,1]
+  starting_position_corner : false
+  starting_position_random : false
+  map_config : 'maps/Map6.yaml'
+  random_coverage : false
+  dataset_path: 'empty'
+  load_state: false
+  load_random: false
+
+
